@@ -1,0 +1,53 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 10px;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 1.6rem;
+    border-radius: 5px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    background-color: bisque;
+    padding: 30px 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#photo {
+    margin: 30px;
+    width: 200px;
+    height: 200px;
+}
+#contacts{
+    width: 70%;
+    min-height: 200px;
+}
+#left {
+    width: 30%;
+}
+ul{
+    column-count: 2;
+}
+
+li {
+    margin-bottom: 10px;
+    vertical-align: top;
+}
+p {
+    line-height: 1.5em;
+}
+
