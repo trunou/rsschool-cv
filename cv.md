@@ -13,13 +13,11 @@ I’m also excited about getting back to web development and hope to grow fast i
 ```JS
 // write the function isAnagram
 var isAnagram = function(test, original) {
-  var first = test.toLowerCase().split('').sort().join('');
-    console.log(first);
-    
-    var second = original.toLowerCase().split('').sort().join('');
-    console.log(second);
-    return first === second;
-};
+    const refactor = (x) => {
+        return x.toLowerCase().split('').sort().join('');
+    }
+    return refactor(test) === refactor(original);
+}
 ```
 ### Education
 BSTU, Department of Printing Equipment and Information Processing;
