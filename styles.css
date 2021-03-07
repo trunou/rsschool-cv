@@ -50,4 +50,22 @@ li {
 p {
     line-height: 1.5em;
 }
+footer{
+    border-top: 1px solid black;
+    margin-top: 20px;
+    padding: 20px 20px 0 20px;
+    text-align: center;
+    
+}
+footer div{
+    display: flex;
+    justify-content: space-between;
+}
+footer img{
+    height: 80px;
+}
+
+#logo{
+    width: 200px;
+}
 
