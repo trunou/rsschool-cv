@@ -5,9 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>CV Trunou Aliaksei</title>
-    <link rel="stylesheet" href="/path/to/styles/default.css">
-  <script src="/path/to/highlight.min.js"></script>
-  <script>hljs.highlightAll();</script>
 </head>
 <body>
     <div class="container">
@@ -51,12 +48,12 @@
       </section>
       <details open="open">
         <summary>Code Example</summary>
-        <pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(71, 73, 73); color: rgb(209, 217, 225);"><span class="hljs-comment" style="color: rgb(150, 152, 150); font-style: italic;">// write the function isAnagram</span>
-          <span class="hljs-keyword" style="color: rgb(204, 153, 204);">var</span> isAnagram = <span class="hljs-function"><span class="hljs-keyword" style="color: rgb(204, 153, 204);">function</span>(<span class="hljs-params">test, original</span>) </span>{
-            <span class="hljs-keyword" style="color: rgb(204, 153, 204);">const</span> refactor = (x) =&gt; {
-                <span class="hljs-keyword" style="color: rgb(204, 153, 204);">return</span> x.toLowerCase().split(<span class="hljs-string" style="color: rgb(138, 190, 183);">''</span>).sort().join(<span class="hljs-string" style="color: rgb(138, 190, 183);">''</span>);
+        <pre style="display: block; overflow-x: auto; padding: 0.5em; background: rgb(71, 73, 73); color: rgb(209, 217, 225);"><span style="color: rgb(150, 152, 150); font-style: italic;">// write the function isAnagram</span>
+          <span style="color: rgb(204, 153, 204);">var</span> isAnagram = <span><span style="color: rgb(204, 153, 204);">function</span>(<span>test, original</span>) </span>{
+            <span style="color: rgb(204, 153, 204);">const</span> refactor = (x) =&gt; {
+                <span style="color: rgb(204, 153, 204);">return</span> x.toLowerCase().split(<span style="color: rgb(138, 190, 183);">''</span>).sort().join(<span style="color: rgb(138, 190, 183);">''</span>);
             }
-            <span class="hljs-keyword" style="color: rgb(204, 153, 204);">return</span> refactor(test) === refactor(original);
+            <span style="color: rgb(204, 153, 204);">return</span> refactor(test) === refactor(original);
           }</pre>
       </details>
 
@@ -72,7 +69,7 @@
     </main>
     <footer>
       <div style="display: flex;">
-        <a href="https://rs.school/js/"><img id="logo" src="https://rs.school/images/rs_school_js.svg" alt="RSSchool"></a>
+        <a href="https://rs.school/js/"><img id="logo" src="rs_school_js.svg" alt="RSSchool"></a>
         <a href="https://github.com/trunou"><img src="ghlogo.png" alt="github: trunou"> </a>
       </div>
       <span>Minsk, 2021</span>
