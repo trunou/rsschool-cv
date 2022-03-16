@@ -10,6 +10,16 @@ I’m also excited about getting back to web development and hope to grow fast i
 ### Skills
 + HTML, CSS, JS, Python, SQL, Photoshop, Illustrator, Figma
 + CMS customization: WordPress, Bitrix, Joomla
++ ### Code Example
+```JS
+// write the function isAnagram
+var isAnagram = function(test, original) {
+    const refactor = (x) => {
+        return x.toLowerCase().split('').sort().join('');
+    }
+    return refactor(test) === refactor(original);
+}
+```
 + ### Education
 + BSTU, Department of Printing Equipment and Information Processing
 + Rolling Scopes School 2021Q1
